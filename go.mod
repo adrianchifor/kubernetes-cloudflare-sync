@@ -1,4 +1,4 @@
-module github.com/calebdoxsey/kubernetes-cloudflare-sync
+module github.com/adrianchifor/kubernetes-cloudflare-sync
 
 require (
 	github.com/cloudflare/cloudflare-go v0.8.5
