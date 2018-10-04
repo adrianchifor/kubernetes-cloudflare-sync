@@ -54,7 +54,7 @@ spec:
       serviceAccountName: k8s-cf-dns-sync
       containers:
       - name: k8s-cf-dns-sync
-        image: quay.io/adrianchifor/kubernetes-cloudflare-sync:latest
+        image: quay.io/adrianchifor/kubernetes-cloudflare-sync:master
         imagePullPolicy: Always
         resources:
           requests:
